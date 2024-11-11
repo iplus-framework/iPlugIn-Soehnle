@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soehnle.mes.processapplication", "soehnle.mes.processapplication\soehnle.mes.processapplication.csproj", "{E73A4C47-D2CA-4A99-8ACD-B8E0B60C6633}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "soehnle.mes.processapplication.shared", "soehnle.mes.processapplication.shared\soehnle.mes.processapplication.shared.shproj", "{9D4C3C3E-0D99-4BAC-82E5-1839324746AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E73A4C47-D2CA-4A99-8ACD-B8E0B60C6633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73A4C47-D2CA-4A99-8ACD-B8E0B60C6633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73A4C47-D2CA-4A99-8ACD-B8E0B60C6633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73A4C47-D2CA-4A99-8ACD-B8E0B60C6633}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0846F4D6-4DE5-4BEC-ACE4-FD30FC425556}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		soehnle.mes.processapplication.shared\soehnle.mes.processapplication.shared.projitems*{9d4c3c3e-0d99-4bac-82e5-1839324746ad}*SharedItemsImports = 13
+		soehnle.mes.processapplication.shared\soehnle.mes.processapplication.shared.projitems*{e73a4c47-d2ca-4a99-8acd-b8e0b60c6633}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
